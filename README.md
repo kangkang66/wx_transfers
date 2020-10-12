@@ -27,7 +27,7 @@ func TestXWXPay_Transfers(t *testing.T) {
 }
 ```
 
-##查询企业付款结果
+## 查询企业付款结果
 ```
 func TestXWXPay_GetTransferInfo(t *testing.T) {
 	ctx  := context.Background()
